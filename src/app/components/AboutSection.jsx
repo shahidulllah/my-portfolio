@@ -54,7 +54,7 @@ const AboutSection = () => {
     <section className="text-white" id="about lg:mx-24">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-24 bg-slate-900/50 ">
        <div className="bg-slate-800/50 rounded-full mx-auto p-6 border-2 flex items-center justify-center w-[270px] h-[325px] lg:w-[400px] lg:h-[490px]">
-       <Image className="rounded-full" src="/images/about.png" width={370} height={370} />
+       <Image className="rounded-full" src="/images/about.png" width={370} height={370} alt="About pic" />
        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 text-center lg:text-left mt-4">About Me</h2>
