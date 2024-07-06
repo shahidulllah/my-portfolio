@@ -2,18 +2,39 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 function BannerSection() {
     return (
         <section className="lg:py-16 mt-10 mb-12 lg:px-24 px-4">
             <div className="grid grid-cols-1 sm:grid-cols-12">
-                <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start ">
+                <motion.div
+                 initial={{ opacity: 0, scale: 0.5 }}
+                 animate={{ opacity: 1, scale: 1 }}
+                 transition={{ duration: 0.5 }}
+                className="col-span-8 place-self-center text-center sm:text-left justify-self-start ">
                     <h1 className="text-white mb-3 text-4xl sm:text-5xl lg:text-8xl lg:leading-tight font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">Hello, I am{""} </span>  
-                         Shahidullah
+                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">Hello, I&apos;m{""} </span> <br />
+                        <TypeAnimation
+                            sequence={[
+                                "Shahidullah",
+                                2500,
+                                "A Professional",
+                                300,
+                                "MERN Stack",
+                                500,
+                                "Web Developer",
+                                2000,
+                                
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity}
+                        />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    Passionate junior web developer skilled in the MERN stack, experienced in creating dynamic web applications with HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, and Express. Eager to contribute to innovative projects.
+                        Passionate junior web developer skilled in the MERN stack, experienced in creating dynamic web applications with HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, and Express. Eager to contribute to innovative projects.
                     </p>
                     <div>
                         <Link
@@ -31,9 +52,13 @@ function BannerSection() {
                             </span>
                         </Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative col-span-4 place-self-center mt-4 lg:mt-0">
+                <motion.div 
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative col-span-4 place-self-center mt-4 lg:mt-0">
                     <Image
                         src="/images/hero.png"
                         alt="hero image"
@@ -41,7 +66,7 @@ function BannerSection() {
                         width={300}
                         height={300}
                     />
-                </div>
+                </motion.div>
 
             </div>
         </section>
