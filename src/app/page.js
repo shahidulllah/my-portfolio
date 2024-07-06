@@ -3,6 +3,7 @@ import BannerSection from "./components/BannerSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
+import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className=" py-4 mt-24 ">
         <BannerSection></BannerSection>
         <AboutSection></AboutSection>
+        <ProjectsSection></ProjectsSection>
       </div>
       <Footer></Footer>
     </main>
