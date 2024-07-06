@@ -4,23 +4,22 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white p-4 lg:mx-24">
-            <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="w-auto flex flex-col items-center justify-center">
+        <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white p-2 lg:mx-24">
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full">
+                <div className="flex flex-col items-center justify-center">
                     <Link
                         href={"/"}
                     >
                         <Image
                             src="/images/footerLogo.png"
                             alt="hero image"
-                            className="p-12 lg:p-2"
                             width={400}
                             height={400}
                         />
                     </Link>
                 </div>
-                <div className=" bg-base-200 text-base-content rounded p-10 flex flex-col justify-center items-center space-y-10 w-auto ">
-                    <nav className="grid grid-flow-col gap-5 lg:gap-12 w-full">
+                <div className=" bg-base-200 text-base-content rounded flex flex-col justify-center items-center space-y-10 text-center">
+                    <nav className="flex flex-wrap gap-5 lg:gap-12 w-full justify-center">
                         <a className="link link-hover">About</a>
                         <a className="link link-hover">Projects</a>
                         <a className="link link-hover">Contact</a>
@@ -28,7 +27,7 @@ const Footer = () => {
                         <a className="link link-hover">CV</a>
                     </nav>
                     <nav>
-                        <div className="grid grid-flow-col gap-4">
+                        <div className="flex flex-wrap gap-4">
                             <a>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
