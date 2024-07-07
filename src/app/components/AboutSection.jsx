@@ -9,12 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>JavaScript</li>
+        <li>React.js</li>
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>MongoDB</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Tailwind</li>
       </ul>
     ),
   },
@@ -23,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Currently studying at Department of Philosophy</li>
+        <li>Ananda Mohon University and College, Mymensingh, Bangladesh</li>
       </ul>
     ),
   },
@@ -33,8 +35,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Complete Web Development Course With Jhankar Mahbub</li>
+        <li>Programming Hero</li>
       </ul>
     ),
   },
@@ -59,12 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 text-center lg:text-left mt-4">About Me</h2>
           <p className="text-base lg:text-lg text-center lg:text-left">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Hi, I&apos;m a Junior Web Developer skilled in JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, and Tailwind CSS and other tools. I have completed several full-stack projects, showcasing my ability to develop both front-end and back-end solutions. I am passionate about coding and eager to join a collaborative team where I can contribute to innovative web applications and continue to grow my skills. My goal is to create user-friendly and efficient web experiences. In my free time, I enjoy exploring new technologies and contributing to open-source projects.
           </p>
           <div className="flex flex-row justify-start mt-8 flex-wrap">
             <TabButton
