@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
+
+Welcome to my personal portfolio website, showcasing my skills, projects, and experience as a junior MERN stack web developer.
+
+## About Me
+
+Hi, I'm a Junior Web Developer skilled in JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, and Tailwind CSS. I have completed several full-stack projects, showcasing my ability to develop both front-end and back-end solutions. I am passionate about coding and eager to join a collaborative team where I can contribute to innovative web applications and continue to grow my skills. In my free time, I enjoy exploring new technologies and contributing to open-source projects.
+
+## Skills
+- JavaScript
+- React.js
+- Node.js
+- Express
+- MongoDB
+- HTML
+- CSS
+- Tailwind CSS
+
+## Projects
+
+### [MediCare+](#)
+Medicare is a web application designed to provide users with convenient access to healthcare services. It offers features such as appointment booking, medical history tracking, and healthcare provider information.
+
+### [Study Room](#)
+Study Room is a web application designed to provide users with a platform to manage their study schedules, join study groups, and track their progress. The application aims to enhance the learning experience by offering features that support collaborative and individual study needs.
+
+### [Crafting Decor Art](#)
+Crafting Decor Art is a web application designed to provide users with a platform to explore, create, and share decorative art and craft projects. The application aims to inspire creativity and offer a community for craft enthusiasts.
+
+## Contact
+
+I'm currently looking for new opportunities. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+
+- [LinkedIn](#)
+- [GitHub](#)
 
 ## Getting Started
 
