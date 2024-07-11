@@ -44,7 +44,7 @@ function BannerSection() {
                             Connect with Me
                         </Link>
                         <Link
-                            href="https://drive.google.com/file/d/1ykx7JbV37vRm0Wa3dyLR5B1G7t7YVQNq/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1sryLJQBnV9nCzp9bcAqRhniQBIgkv_15/view?usp=sharing"
                             className="px-1 inline-block py-1  sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
                         >
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
