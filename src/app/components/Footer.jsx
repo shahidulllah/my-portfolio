@@ -28,8 +28,8 @@ const Footer = () => {
                        <Link href={'#projects'}> <h3 className="link link-hover">Projects</h3></Link>
                         <Link href={'#contact'}><h3 className="link link-hover">Contact</h3></Link>
                         <Link href={'https://drive.google.com/file/d/1sryLJQBnV9nCzp9bcAqRhniQBIgkv_15/view?usp=sharing'}><h3 className="link link-hover">Resume</h3></Link>
-                        <Link href={'https://drive.google.com/file/d/1ykx7JbV37vRm0Wa3dyLR5B1G7t7YVQNq/view?usp=sharing'}><h3 className="link link-hover">Certificate</h3></Link>
-                        <Link href={'https://drive.google.com/file/d/1sryLJQBnV9nCzp9bcAqRhniQBIgkv_15/view?usp=sharing'}><h3 className="link link-hover">CV</h3></Link>
+                        <Link href={'https://drive.google.com/file/d/1euydPOWyYg_SV3dZt0ScQwLFjg_6i4E1/view?usp=sharing'}><h3 className="link link-hover">Certificate</h3></Link>
+                        <Link href={'https://drive.google.com/file/d/1euydPOWyYg_SV3dZt0ScQwLFjg_6i4E1/view?usp=sharing'}><h3 className="link link-hover">CV</h3></Link>
                     </nav>
                     <nav>
                         <div className="flex flex-wrap gap-6">
