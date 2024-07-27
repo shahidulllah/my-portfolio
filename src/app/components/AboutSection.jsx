@@ -25,7 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Currently studying at Department of Philosophy</li>
+        <li>National University</li>
+        <li>Bachelor of Honours Degree, Department of Philosophy</li>
         <li>Ananda Mohon University and College, Mymensingh, Bangladesh</li>
       </ul>
     ),
