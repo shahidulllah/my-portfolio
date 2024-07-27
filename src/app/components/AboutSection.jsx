@@ -28,6 +28,7 @@ const TAB_DATA = [
         <li>National University</li>
         <li>Bachelor of Honours Degree, Department of Philosophy</li>
         <li>Ananda Mohon University and College, Mymensingh, Bangladesh</li>
+        <li>(From 2021 to Running)</li>
       </ul>
     ),
   },
