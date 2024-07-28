@@ -31,6 +31,9 @@ const Footer = () => {
                         <Link href={'https://drive.google.com/file/d/1ykx7JbV37vRm0Wa3dyLR5B1G7t7YVQNq/view?usp=drive_link'}><h3 className="link link-hover">Certificate</h3></Link>
                         <Link href={'https://drive.google.com/file/d/1IaR6ouG6M70M3JzBTOaexN4wD05IXQL3/view?usp=drive_link'}><h3 className="link link-hover">CV</h3></Link>
                     </nav>
+                    <div>
+                        <p><span className="font-bold">E-mail:</span>- mdshahidsumon177@gmail.com</p>
+                    </div>
                     <nav>
                         <div className="flex flex-wrap gap-6">
                            <Link href={'https://www.linkedin.com/in/shahidullah177/'}><div><GrLinkedin className="text-3xl"/></div></Link>
