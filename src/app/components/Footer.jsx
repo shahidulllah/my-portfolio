@@ -33,12 +33,14 @@ const Footer = () => {
                     </nav>
                     <div>
                         <p><span className="font-bold">E-mail:</span>- mdshahidsumon177@gmail.com</p>
+                        <p><span className="font-bold">Phone:</span>- +880 1747162648</p>
+
                     </div>
                     <nav>
                         <div className="flex flex-wrap gap-6">
                            <Link href={'https://www.linkedin.com/in/shahidulllah/'}><div><GrLinkedin className="text-3xl"/></div></Link>
                            <Link href={'https://github.com/shahidulllah'}><div><SiGithub className="text-3xl"/></div></Link>
-                           <Link href={'https://www.facebook.com/mdshahidulllah/'}><div><FaSquareFacebook className="text-3xl"/></div></Link>
+                           <Link href={'https://www.facebook.com/shahidullllah/'}><div><FaSquareFacebook className="text-3xl"/></div></Link>
                         </div>
                     </nav>
                     <aside>
