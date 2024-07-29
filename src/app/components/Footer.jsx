@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <nav>
                         <div className="flex flex-wrap gap-6">
-                           <Link href={'https://www.linkedin.com/in/shahidullah177/'}><div><GrLinkedin className="text-3xl"/></div></Link>
+                           <Link href={'https://www.linkedin.com/in/shahidulllah/'}><div><GrLinkedin className="text-3xl"/></div></Link>
                            <Link href={'https://github.com/shahidulllah'}><div><SiGithub className="text-3xl"/></div></Link>
                            <Link href={'https://www.facebook.com/mdshahidulllah/'}><div><FaSquareFacebook className="text-3xl"/></div></Link>
                         </div>
