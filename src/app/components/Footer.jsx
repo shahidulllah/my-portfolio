@@ -22,20 +22,15 @@ const Footer = () => {
                         />
                     </Link>
                 </div>
-                <div className=" bg-base-200 text-base-content rounded flex flex-col justify-center items-center space-y-10 text-center">
+                <div className=" bg-base-200 text-base-content rounded flex flex-col justify-center items-center space-y-8 text-center">
                     <nav className="flex flex-wrap gap-5 lg:gap-12 w-full justify-center">
                        <Link href={'#about'}> <h3 className="link link-hover">About</h3></Link>
                        <Link href={'#projects'}> <h3 className="link link-hover">Projects</h3></Link>
                         <Link href={'#contact'}><h3 className="link link-hover">Contact</h3></Link>
-                        <Link href={'https://drive.google.com/file/d/1IaR6ouG6M70M3JzBTOaexN4wD05IXQL3/view?usp=drive_link'}><h3 className="link link-hover">Resume</h3></Link>
+                        <Link href={'https://drive.google.com/file/d/1yqswB9tc1Kw25tkwnXcRkHDl8NUmbJHq/view?usp=drive_link'}><h3 className="link link-hover">Resume</h3></Link>
                         <Link href={'https://drive.google.com/file/d/1ykx7JbV37vRm0Wa3dyLR5B1G7t7YVQNq/view?usp=drive_link'}><h3 className="link link-hover">Certificate</h3></Link>
-                        <Link href={'https://drive.google.com/file/d/1IaR6ouG6M70M3JzBTOaexN4wD05IXQL3/view?usp=drive_link'}><h3 className="link link-hover">CV</h3></Link>
+                        <Link href={'https://drive.google.com/file/d/1yqswB9tc1Kw25tkwnXcRkHDl8NUmbJHq/view?usp=drive_link'}><h3 className="link link-hover">CV</h3></Link>
                     </nav>
-                    <div>
-                        <p><span className="font-bold">E-mail:</span>- mdshahidsumon177@gmail.com</p>
-                        <p><span className="font-bold">Phone:</span>- +880 1747162648</p>
-
-                    </div>
                     <nav>
                         <div className="flex flex-wrap gap-6">
                            <Link href={'https://www.linkedin.com/in/shahidulllah/'}><div><GrLinkedin className="text-3xl"/></div></Link>
@@ -43,6 +38,10 @@ const Footer = () => {
                            <Link href={'https://www.facebook.com/shahidullllah/'}><div><FaSquareFacebook className="text-3xl"/></div></Link>
                         </div>
                     </nav>
+                    <div className="space-y-3">
+                        <p><span className="font-semibold">E-mail:</span>- mdshahidsumon177@gmail.com</p>
+                        <p><span className="font-semibold">Phone:</span>- +880 1747162648</p>
+                    </div>
                     <aside>
                         <p>Copyright © ${new Date().getFullYear()} - All right reserved by Shahidullah</p>
                     </aside>
