@@ -14,7 +14,7 @@ function BannerSection() {
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{ duration: 0.5 }}
                 className="col-span-8 place-self-center text-center sm:text-left justify-self-start ">
-                    <h1 className="text-white mb-3 text-4xl sm:text-5xl lg:text-8xl lg:leading-tight font-extrabold">
+                    <h1 className="text-white mb-3 text-4xl sm:text-5xl lg:text-6xl lg:leading-tight font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">Hello, I&apos;m{""} </span> <br />
                         <TypeAnimation
                             sequence={[
@@ -37,14 +37,14 @@ function BannerSection() {
                         Passionate junior web developer skilled in the MERN stack, experienced in creating dynamic web applications with HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, and Express. Eager to contribute to innovative projects.
                     </p>
                     <div>
-                        <Link
+                        {/* <Link
                             href="/#contact"
                             className=" px-6 inline-block py-3 sm:w-fit rounded-full lg:mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-700 hover:text-white  text-black"
                         >
                             Connect with Me
-                        </Link>
+                        </Link> */}
                         <Link
-                            href="https://drive.google.com/file/d/1yqswB9tc1Kw25tkwnXcRkHDl8NUmbJHq/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1kgnMEap6qKHCua06XVxvQJYIpu6AuRqW/view?usp=sharing"
                             className="px-1 inline-block py-1  sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
                         >
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
