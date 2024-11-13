@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function BannerSection() {
     return (
-        <section className="lg:py-16 mt-10 mb-12 lg:px-24 px-4">
+        <section className="lg:py-16 mt-10 mb-12 lg:px-28 px-6">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <motion.div
                  initial={{ opacity: 0, scale: 0.5 }}
@@ -33,7 +33,7 @@ function BannerSection() {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl lg:w-[650px] text-justify">
                         Passionate junior web developer skilled in the MERN stack, experienced in creating dynamic web applications with HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, and Express. Eager to contribute to innovative projects.
                     </p>
                     <div>
